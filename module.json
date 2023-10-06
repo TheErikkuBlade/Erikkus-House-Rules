@@ -1,0 +1,62 @@
+{
+  "id": "erikkus-house-rules",
+  "title": "Erikku's House Rules",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Erikku Blade",
+      "discord": "erikkublade"
+    }
+  ],
+  "packs": [
+    {
+      "name": "bandoliers",
+      "label": "Bandoliers",
+      "path": "packs/bandoliers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "investment-attenuators",
+      "label": "Investment Attenuators",
+      "path": "packs/investment-attenuators",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rule-documents",
+      "label": "Rule Documents",
+      "path": "packs/rule-documents",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packFolders":[
+        {
+          "name": "Erikku's House Rules",
+          "sorting": "m",
+	  "color": "#1b1b1b",
+          "packs": [
+          "bandoliers",
+          "investment-attenuators",
+          "rule-documents"
+          ]
+        }
+      ],
+      "system": "pf2e"
+    }
+  ]
+}
