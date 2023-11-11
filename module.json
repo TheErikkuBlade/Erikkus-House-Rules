@@ -3,8 +3,8 @@
   "title": "Erikku's House Rules",
   "url": "https://github.com/TheErikkuBlade/erikkus-house-rules",
   "manifest": "https://github.com/TheErikkuBlade/erikkus-house-rules/releases/latest/download/module.json",
-  "download": "https://github.com/TheErikkuBlade/erikkus-house-rules/releases/download/0.1.0/erikkus-house-rules.zip",
-  "version": "0.1.0",
+  "download": "https://github.com/TheErikkuBlade/erikkus-house-rules/releases/download/0.3.0/erikkus-house-rules.zip",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -43,23 +43,23 @@
       "label": "Rule Documents",
       "path": "packs/rule-documents",
       "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-feats",
+      "label": "Homebrew Feats",
+      "path": "packs/homebrew-feats",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "packFolders":[
-        {
-          "name": "Erikku's House Rules",
-          "sorting": "m",
-	  "color": "#1b1b1b",
-          "packs": [
-          "bandoliers",
-          "investment-attenuators",
-          "rule-documents"
-          ]
-        }
-      ],
       "system": "pf2e"
     }
-  ]
+  ],
+  "url": "https://raw.githubusercontent.com/TheErikkuBlade/erikkus-house-rules/latest/module.json"
 }
