@@ -1,10 +1,9 @@
 {
   "id": "erikkus-house-rules",
   "title": "Erikku's House Rules",
-  "version": "0.3.1",
-  "url": "https://github.com/TheErikkuBlade/erikkus-house-rules",
   "manifest": "https://github.com/TheErikkuBlade/erikkus-house-rules/releases/latest/download/module.json",
-  "download": "https://github.com/TheErikkuBlade/erikkus-house-rules/releases/download/0.3.1/erikkus-house-rules.zip",
+  "download": "https://github.com/TheErikkuBlade/erikkus-house-rules/releases/download/0.5.0/erikkus-house-rules.zip",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -13,6 +12,20 @@
     {
       "name": "Erikku Blade",
       "discord": "erikkublade"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PF2e Erikku's House Rules",
+      "sorting": "m",
+      "packs": [
+        "bandoliers",
+        "investment-attenuators",
+        "rule-documents",
+        "homebrew-feats",
+        "homebrew-actions"
+      ],
+      "folders": []
     }
   ],
   "packs": [
@@ -54,6 +67,17 @@
       "label": "Homebrew Feats",
       "path": "packs/homebrew-feats",
       "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-actions",
+      "label": "Homebrew Actions",
+      "path": "packs/homebrew-actions",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -61,5 +85,13 @@
       "system": "pf2e"
     }
   ],
-  "url": "https://raw.githubusercontent.com/TheErikkuBlade/erikkus-house-rules/latest/module.json"
+  "url": "https://raw.githubusercontent.com/TheErikkuBlade/erikkus-house-rules/latest/module.json",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  }
 }

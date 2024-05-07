@@ -1,8 +1,15 @@
-2023/11/12-18:59:55.823384 ffff93fff0a0 Recovering log #162
-2023/11/12-18:59:55.830196 ffff93fff0a0 Delete type=0 #162
-2023/11/12-18:59:55.830216 ffff93fff0a0 Delete type=3 #160
-2023/11/13-03:21:26.445618 fffe723950a0 Level-0 table #167: started
-2023/11/13-03:21:26.445645 fffe723950a0 Level-0 table #167: 0 bytes OK
-2023/11/13-03:21:26.448016 fffe723950a0 Delete type=0 #165
-2023/11/13-03:21:26.448228 fffe723950a0 Manual compaction at level-0 from '!journal!KTabOSkPEMUrKqax' @ 72057594037927935 : 1 .. '!journal.pages!rMh8cA2rdTTP0AgY.uBycDTS0uUENXUg0' @ 0 : 0; will stop at (end)
-2023/11/13-03:21:26.453495 fffe723950a0 Manual compaction at level-1 from '!journal!KTabOSkPEMUrKqax' @ 72057594037927935 : 1 .. '!journal.pages!rMh8cA2rdTTP0AgY.uBycDTS0uUENXUg0' @ 0 : 0; will stop at (end)
+2024/05/06-19:54:06.575600 ecad23fff0a0 Recovering log #908
+2024/05/06-19:54:06.582347 ecad23fff0a0 Delete type=3 #906
+2024/05/06-19:54:06.582371 ecad23fff0a0 Delete type=0 #908
+2024/05/07-00:59:10.372034 ecac02d600a0 Level-0 table #913: started
+2024/05/07-00:59:10.375377 ecac02d600a0 Level-0 table #913: 19555 bytes OK
+2024/05/07-00:59:10.377920 ecac02d600a0 Delete type=0 #911
+2024/05/07-00:59:10.388683 ecac02d600a0 Manual compaction at level-0 from '!journal!KTabOSkPEMUrKqax' @ 72057594037927935 : 1 .. '!journal.pages!rMh8cA2rdTTP0AgY.uBycDTS0uUENXUg0' @ 0 : 0; will stop at (end)
+2024/05/07-00:59:10.391707 ecac02d600a0 Manual compaction at level-1 from '!journal!KTabOSkPEMUrKqax' @ 72057594037927935 : 1 .. '!journal.pages!rMh8cA2rdTTP0AgY.uBycDTS0uUENXUg0' @ 0 : 0; will stop at '!journal.pages!LKoMIy6o9NphQzan.xZIzdSXvSjY6c3Uw' @ 88 : 1
+2024/05/07-00:59:10.391713 ecac02d600a0 Compacting 1@1 + 1@2 files
+2024/05/07-00:59:10.394911 ecac02d600a0 Generated table #914@1: 16 keys, 13523 bytes
+2024/05/07-00:59:10.394921 ecac02d600a0 Compacted 1@1 + 1@2 files => 13523 bytes
+2024/05/07-00:59:10.397423 ecac02d600a0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/07-00:59:10.397486 ecac02d600a0 Delete type=2 #155
+2024/05/07-00:59:10.397555 ecac02d600a0 Delete type=2 #913
+2024/05/07-00:59:10.406251 ecac02d600a0 Manual compaction at level-1 from '!journal.pages!LKoMIy6o9NphQzan.xZIzdSXvSjY6c3Uw' @ 88 : 1 .. '!journal.pages!rMh8cA2rdTTP0AgY.uBycDTS0uUENXUg0' @ 0 : 0; will stop at (end)
